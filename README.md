@@ -1,15 +1,11 @@
-# js-lab-170
-### Lab 170 ES6: destructuring2
-ให้ใช้ destructuring โดยให้ x เท่ากับ Hello และ y เท่ากับ b
+# js-lab-171
+### Lab 171 ES6: for … of กับ names
+ให้ใช้ for … of กับ names (ให้ destructuring object ในแต่ละ iteration) ในแต่ละ iteration ให้ console.log ค่า Full name ออกมา
 
 ```JavaScript
-const q = {
-  prop: 'Hello',
-  prop2: {
-    prop2: {
-      nested: ['a', 'b', 'c']
-    }
-  }
-};
-
+const names = [
+  { firstName: 'John', lastName: 'Doe' },
+  { firstName: 'Jack', lastName: 'Dann' },
+  { firstName: 'Joe', lastName: 'Dunne' }
+];
 ```
